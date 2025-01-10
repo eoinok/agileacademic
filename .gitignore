@@ -24,7 +24,6 @@ junit.xml
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 !build/Release
-!build/.gitkeep
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
@@ -44,9 +43,8 @@ __diff_output__/
 .cache/
 .netlify
 .Rhistory
+/public
 
-!/public
-!/public/.gitkeep
 
 # IDE specific
 .idea/
